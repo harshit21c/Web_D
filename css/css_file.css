@@ -1,0 +1,412 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+	margin:0px;
+	padding:0px;
+}
+
+.body_home{
+	background-image: url(../images/background1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.head{
+	margin:0px;
+	height:87px;
+	background-color: rgb(0,0,0,0.6);
+}
+
+.logo{
+	border:4px solid #D71E1E;
+	width : 70px;
+	margin-top: 5px;
+	margin-left: 5.2% ;
+	float : left;
+
+}
+
+nav ul{
+	position: relative;
+	top: 30px;
+	display: inline;
+	left: 4%;
+}
+
+nav ul li{
+	display: inline;
+	margin : 2%;
+}
+
+nav ul li a{
+	border:4px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color:#B2B1AD;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	border-color: #B2B1AD;
+	border-radius: 15px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color:#4E9BFE;
+	font-weight: bold;
+}
+
+nav ul li a:active{
+	border-color: #4E9BFE;
+	border-radius: 15px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color:#4E9BFE;
+	font-weight: bold;
+}
+
+.dp{
+	width: 320px;
+	border: 12px solid #4E9BFE;
+	border-radius: 50%;
+	position: relative;
+	top:163px;
+	left: 23.4375%;
+}
+
+.dp:hover{
+	width: 325px;
+	border: 12px solid #0571FE;
+	border-radius: 50%;
+	position: relative;
+	top:163px;
+	left: 23.4375%;
+}
+
+ul.name{
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+	color : #E2DBDB;
+	top: 650px;
+	left: 14.5%; 
+}
+
+ul.name:hover{
+	font-size: 51px;
+	font-weight: bold;
+	position: absolute;
+	color : white;
+	top: 650px;
+	left: 14.15%; 
+}
+
+.name li{
+	font-family: 'Dancing Script', cursive;
+	display: inline;
+	text-decoration: none;
+	margin: 6px;
+}
+
+.orb img{
+	border : 6px solid rgb(0,0,0,0);
+	border-radius: 50%;
+	width:64px;
+	padding:20px; 
+	position: absolute;
+	left: 58.05%;
+	top: 151px;
+}
+
+.orb img:hover{
+	border : 6px solid #B2B1AD;
+	border-radius: 50%;
+	width:64px;
+	padding:20px; 
+	position: absolute;
+	left: 58.05%;
+	top: 151px;
+}
+
+.body_academic{
+	background-image: url(../images/background_acad.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.academic p{
+	width:800px;
+	font-size: 50px;
+	color: white;
+	position:absolute;
+	top:450px;
+	left:9%;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.academic p:hover{
+	width:800px;
+	font-size: 51px;
+	color: white;
+	position:absolute;
+	top:450px;
+	left:9%;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+}
+
+.academic img{
+	position: absolute;
+	top: 150px;
+	left: 23%;
+}
+
+.academic img:hover{
+	position: absolute;
+	width:203px;
+	top: 150px;
+	left: 23%;
+}
+
+.body_achievements{
+	background-image: url(../images/background_achieve.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.achievements{
+	display: inline-block;
+}
+
+.achievements img{
+	position: absolute;
+	top: 200px;
+	left: 23%;
+}
+
+.achievements img:hover{
+	position: absolute;
+	width: 255px;
+	top: 200px;
+	left: 23%;
+}
+
+.achievements ul{
+	width: 800px;
+	list-style-image: url('../images/achieve3.png');
+	margin:60px; 
+	position: absolute;
+	top: 400px;
+	left:9%;
+}
+
+.achievements ul li{
+	font-size: 32px;
+	font-family: 'Kaushan Script', cursive;
+	color: black;
+	margin-top: 20px;
+}
+
+.achievements ul li:hover{
+	font-size: 33px;
+	font-family: 'Kaushan Script', cursive;
+	color: black;
+	margin-top: 20px;
+}
+
+.body_interests{
+	background-image: url(../images/background_interests.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.interests{
+	display: inline-block;
+}
+
+.interests img{
+	position: absolute;
+	top: 200px;
+	left: 23%;
+}
+
+.interests img:hover{
+	position: absolute;
+	top: 200px;
+	width :255px;
+	left: 23%;
+}
+
+.interests ul{
+	width: 800px;
+	list-style-image: url('../images/int1.png');
+	margin:60px; 
+	position: absolute;
+	top: 450px;
+	left:9%;
+}
+
+.interests ul li{
+	font-size: 35px;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	margin-top: 20px;
+}
+
+.interests ul li:hover{
+	font-size: 37px;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	margin-top: 20px;
+}
+
+.body_contact{
+	background-image: url(../images/background_contact.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.contact img{
+	position: absolute;
+	top: 200px;
+	left: 25%;
+}
+
+.gmail{
+	display: inline-block;
+	position:absolute;
+	top: 575px;
+	left: 7%;
+	width: 1000px;
+}
+
+.gmail img{
+	float: left;
+}
+
+.gmail p{
+	margin-top: 6px;
+	margin-left: 100px;
+	font-size: 28px;
+	color: white;
+}
+
+.address{
+	display: inline-block;
+	position:absolute;
+	top: 500px;
+	left: 7%;
+	width: 1000px;
+}
+
+.address img{
+	float: left;
+}
+
+.address p{
+	margin-top: 6px;
+	margin-left: 100px;
+	font-size: 28px;
+	color: white;
+}
+
+.phone{
+	display: inline-block;
+	position:absolute;
+	top: 650px;
+	left: 7%;
+	width: 1000px;
+}
+
+.phone img{
+	float: left;
+}
+
+.phone p{
+	margin-top: 6px;
+	margin-left: 100px;
+	font-size: 28px;
+	color: white;
+}
+
+.whatsapp{
+	display: inline-block;
+	position:absolute;
+	top: 725px;
+	left: 7%;
+	width: 1000px;
+}
+
+.whatsapp img{
+	float: left;
+}
+
+.whatsapp p{
+	margin-top: 6px;
+	margin-left: 100px;
+	font-size: 28px;
+	color: white;
+}
+
+.fb img{
+	width:80px;
+	position: absolute;
+	top:653px;
+	left: 30%;
+	padding: 20px;
+	border : 5px solid rgb(0,0,0,0);
+}
+
+.fb img:hover{
+	width:80px;
+	position: absolute;
+	top:653px;
+	left: 30%;
+	border : 5px solid #B2B1AD;
+	padding: 20px;
+	border-radius: 30px
+}
+
+.insta img{
+	width:80px;
+	position: absolute;
+	top:653px;
+	left: 45%;
+	padding: 20px;
+	border : 5px solid rgb(0,0,0,0);
+}
+
+.insta img:hover{
+	width:80px;
+	position: absolute;
+	top:653px;
+	left: 45%;
+	border : 5px solid #B2B1AD;
+	padding: 20px;
+	border-radius: 30px
+}
+
+footer p{
+	text-align: center;
+	color: grey;
+	position: absolute;
+	top:910px;
+	left: 42%;
+}
+
+
+.other_pages p{
+	text-align: center;
+	color: grey;
+	position: absolute;
+	top:930px;
+	left: 42%;
+}
